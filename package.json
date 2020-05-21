@@ -2,20 +2,26 @@
   "name": "ddjkkg",
   "version": "0.0.0",
   "private": true,
+  "bin": {
+    "ddjkkg": "./cli.js"
+  },
   "scripts": {
     "start": "node ./bin/www",
     "devstart": "nodemon ./bin/www"
   },
   "dependencies": {
     "airtable": "^0.8.1",
+    "chalk": "^4.0.0",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "dotenv": "^8.2.0",
     "ejs": "~2.6.1",
     "express": "~4.16.1",
+    "figlet": "^1.4.0",
     "http-errors": "~1.6.3",
     "marked": "^1.0.0",
     "moment": "^2.25.3",
-    "morgan": "~1.9.1"
+    "morgan": "~1.9.1",
+    "yargs": "^15.3.1"
   }
 }
